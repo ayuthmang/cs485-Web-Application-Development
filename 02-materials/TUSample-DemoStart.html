@@ -1,0 +1,170 @@
+﻿<!doctype html>
+<html lang="th">
+<head>
+<title>Thammasat Sample</title>
+<style>
+* {
+	box-sizing: border-box;
+}
+body { 
+	max-width: 90vw;
+	margin: auto;
+}
+img {
+	max-width: 100%;
+}
+/* header block */
+.header-wrapper {
+  	height: 60px;
+  	background-color: lightgray;
+}
+/* for center alignment of logo image */
+.logo-block:before {
+	content: ' ';
+	vertical-align: middle;
+	display: inline-block;
+	height: 100%;
+}
+.logo-block img {
+  	max-width: 200px;
+  	vertical-align: middle;
+}
+/* hilight block */
+.hilight {
+	background-color: #c00832;
+    color: #FFF;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+blockquote {
+	margin-left: 5vw;
+	letter-spacing: 0.6rem;
+}
+blockquote:before {
+    display: block;
+    height: 0;
+    content: "“";
+	font-size: 3rem;
+	margin-left: -.7em;
+}
+
+/* container grid with at least 10vh row */
+.container {
+}
+.container section {
+	max-width: 90vw;
+}
+/* media content with RWD */
+.guideline-section {
+}
+.media-img {
+	margin: 0;
+	padding: 0;
+	height: calc(90vw * 0.6);
+	background-position: center;
+    background-size: cover;
+	background-clip: content-box; 
+}
+.media-block {
+	padding-bottom: 30px;
+	border-bottom-width: 10px;
+	border-bottom-style: solid;
+}
+.blue {
+	border-bottom-color: #4babcb;
+}
+.orange {
+	border-bottom-color: #f27134;
+}
+
+.green {
+    border-bottom-color: #789444;
+}
+.purple {
+	border-bottom-color:  #873475;
+}
+
+.blue h4 {
+	color: #4babcb;
+}
+.orange h4 {
+	color: #f27134;
+}
+.green h4 {
+    color: #789444;
+}
+.purple h4 {
+	color: #873475;
+}
+
+/* footer part using flex */ 
+footer {
+}
+.footer-left, .footer-right {
+}
+.footer-mid {
+	border-left: 1px dashed gray;
+	border-right: 1px dashed gray;
+}
+.footer-left > img {
+	width: 80%;
+}
+</style>
+</head>
+<body>
+
+<header class="header-wrapper">
+   <div class="logo-block">
+	<a href="/" target="_self" alt="link to tu"><img src="http://www.tu.ac.th/uploads//main-logo.svg" alt=""></a>
+   </div>
+</header>
+
+<div class="container">
+<section class="hilight">
+	<h3>เรียนที่ธรรมศาสตร์</h3>
+<blockquote>
+JOIN SOME OF 
+THAILAND’S MOST 
+PROGRESSIVE THINKERS
+</blockquote>
+</section>
+<section class="guideline-section">
+<div class="media-block blue">
+	<div class="media-img" style="background-image: url(http://www.tu.ac.th/uploads/moutuku%20.jpg)"></div>
+	<h4>GLOBAL CONNECTIONS</h4>
+	<div>
+	Thammasat University offers a crossroads of cultures, collaborating with leading worldwide institutions and bringing students of all backgrounds together. 
+	</div>
+</div>
+<div class="media-block orange">
+	<div class="media-img" style="background-image: url(http://www.tu.ac.th/uploads/LEADING%20THE%20WAY.jpg)"></div>
+	<h4>LEADING THE WAY</h4>
+	<div>
+	Thammasat University is moulding the next generation of leaders, inspiring students to be the best they can be – innovative, ethical and always serving society.
+	</div>
+</div>
+<div class="media-block green">
+	<div class="media-img" style="background-image: url(http://www.tu.ac.th/uploads/EVOLVED%20ACADEMICS.JPG)"></div>
+	<h4>EVOLVED ACADEMICS</h4>
+	<div>
+	From using the latest in-class tech to sending students into the field for hands-on learning, Thammasat University’s teaching practices ensure 100% engagement.
+	</div>
+</div>
+<div class="media-block purple">
+	<div class="media-img" style="background-image: url(http://www.tu.ac.th/uploads/CREATING%20A%20BETTER%20WORLD.jpg)"></div>
+	<h4>CREATING A BETTER WORLD</h4>
+	<div>We’re always asking how we can make the world a better place, and are currently on track to be the first university in the world completely powered by renewable energy.
+	</div>
+</div>
+</section>
+<footer>
+<div class="footer-left">
+	<img src="http://www.tu.ac.th/uploads//main-logo.svg" alt="">
+</div>
+<div class="footer-mid">Sample Footer: Just for demo!</div>
+<div class="footer-right">
+<span class="copyright-text">© 2017 Thammasat University</span>
+</footer>
+</div>
+</body>
+</html>
